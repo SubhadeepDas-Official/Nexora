@@ -242,9 +242,9 @@ export const SignUpView = () => {
                             </div>
                         </form>
                     </Form>
-                    <div className="bg-radial from-purple-400 to-purple-900 relative hidden md:flex flex-col gap-y-4 items-center justify-center">
+                    <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col gap-y-4 items-center justify-center">
                         <img src="/logo.svg" alt="Image" className="h-[92px] w-[92px]"/>
-                        <p className="text-2xl font-semibold text-white">Nexora</p>
+                        <p className="text-2xl font-semibold text-purple-200">Nexora</p>
                     </div>
                 </CardContent>
             </Card>
@@ -253,4 +253,4 @@ export const SignUpView = () => {
             </div>
         </div>
     );
-}
+} 
